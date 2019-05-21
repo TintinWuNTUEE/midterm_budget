@@ -13,8 +13,8 @@ class App extends Component {
   componentDidMount() {
     this.getItemFromDb();
   }
-  async getItemFromDb () {
-    await fetch("http://localhost:3000/backend/getItem")
+  getItemFromDb () {
+    fetch("http://localhost:3000/backend/getItem")
       .then(item => item.json())
       .then(res => this.setState({ items: res.item }));
     };

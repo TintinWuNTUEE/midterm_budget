@@ -1,6 +1,6 @@
-const port = 3000;
+const port = 5000;
 const mongoose = require('mongoose');
-const mongoUrl = "KEY IN YOUR URL";
+const mongoUrl = "mongodb+srv://Tintin:Tintin1114@midterm-jwfhd.mongodb.net/test?retryWrites=true&w=majority";
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const express = require('express');

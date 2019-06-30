@@ -1,12 +1,12 @@
-
+﻿
 # midterm_budget
 ## 簡介
 * 紀錄開銷網頁
 ## 連結：
 https://github.com/TintinWuNTUEE/midterm_budget.git
 ## 使用/操作方式：
-請在App.js的mongoUrl中打入您的url
-即可開始使用npm 操作
+請在backend/app.js的mongoUrl中打入您的url
+即可開始使用npm start操作
 ## 功能
 * 新增一筆開銷、刪除一筆開銷、修改一筆開銷
 
